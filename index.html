@@ -203,25 +203,11 @@
         </div>
     </footer>
 
-    <!-- Chat Button -->
-    <div id="chat-btn" style="position:fixed;bottom:20px;right:20px;width:60px;height:60px;background:#2563eb;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-size:24px;cursor:pointer;z-index:1000;box-shadow:0 4px 12px rgba(37,99,235,0.3)" onclick="openChat()">💬</div>
-    
     <script>
-    // Suppress all extension and third-party errors
-    window.addEventListener('error', function(e) {
-        e.preventDefault();
-        return true;
-    });
-    
-    window.addEventListener('unhandledrejection', function(e) {
-        e.preventDefault();
-        return true;
-    });
-    
-    function openChat() {
-        window.open('https://chatbase.co/chatbot-iframe/1-XfhR9SDseeO89t-ljLU', '_blank', 'width=400,height=600');
-    }
+    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="1-XfhR9SDseeO89t-ljLU";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
     </script>
+    
+    
     <script src="script.js"></script>
 </body>
 </html>

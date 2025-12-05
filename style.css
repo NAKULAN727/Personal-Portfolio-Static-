@@ -12,8 +12,8 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #ffffff;
+    color: #e2e8f0;
+    background-color: #0f172a;
 }
 
 .container {
@@ -27,11 +27,11 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(15, 23, 42, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
     padding: 1rem 0;
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid #334155;
 }
 
 .nav-container {
@@ -57,7 +57,7 @@ body {
 
 .nav-menu a {
     text-decoration: none;
-    color: #374151;
+    color: #e2e8f0;
     font-weight: 500;
     transition: color 0.3s ease;
 }
@@ -72,7 +72,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
     text-align: center;
     padding: 0 20px;
 }
@@ -87,7 +87,7 @@ body {
 .hero-name {
     font-size: 3.5rem;
     font-weight: 700;
-    color: #1e293b;
+    color: #f1f5f9;
     margin-bottom: 0.5rem;
 }
 
@@ -100,7 +100,7 @@ body {
 
 .hero-tagline {
     font-size: 1.2rem;
-    color: #64748b;
+    color: #94a3b8;
     margin-bottom: 2rem;
     max-width: 600px;
     margin-left: auto;
@@ -155,12 +155,12 @@ section {
     font-weight: 600;
     text-align: center;
     margin-bottom: 3rem;
-    color: #1e293b;
+    color: #f1f5f9;
 }
 
 /* About Section */
 .about {
-    background: #f8fafc;
+    background: #1e293b;
 }
 
 .about-text {
@@ -168,7 +168,7 @@ section {
     margin: 0 auto;
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #374151;
+    color: #cbd5e1;
 }
 
 .about-text p {
@@ -194,10 +194,10 @@ section {
 }
 
 .skill-category {
-    background: white;
+    background: #334155;
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     text-align: center;
     opacity: 0;
     transform: translateY(30px);
@@ -207,7 +207,7 @@ section {
 .skill-category h3 {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #1e293b;
+    color: #f1f5f9;
     margin-bottom: 1.5rem;
 }
 
@@ -229,7 +229,7 @@ section {
 
 /* Projects Section */
 .projects {
-    background: #f8fafc;
+    background: #1e293b;
 }
 
 .projects-grid {
@@ -241,10 +241,10 @@ section {
 }
 
 .project-card {
-    background: white;
+    background: #334155;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     opacity: 0;
     transform: translateY(30px);
@@ -273,12 +273,12 @@ section {
 .project-content h3 {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #1e293b;
+    color: #f1f5f9;
     margin-bottom: 1rem;
 }
 
 .project-content p {
-    color: #64748b;
+    color: #94a3b8;
     margin-bottom: 1.5rem;
     line-height: 1.6;
 }
@@ -308,11 +308,11 @@ section {
 }
 
 .achievement-card {
-    background: white;
+    background: #334155;
     padding: 2rem;
     border-radius: 12px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
     opacity: 0;
     transform: translateY(30px);
@@ -339,7 +339,7 @@ section {
 .achievement-card h3 {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #1e293b;
+    color: #f1f5f9;
     margin-bottom: 0.5rem;
 }
 
@@ -356,7 +356,7 @@ section {
 
 /* Contact Section */
 .contact {
-    background: #f8fafc;
+    background: #1e293b;
 }
 
 .contact-content {
@@ -367,7 +367,7 @@ section {
 
 .contact-content p {
     font-size: 1.2rem;
-    color: #64748b;
+    color: #94a3b8;
     margin-bottom: 2rem;
 }
 
@@ -383,12 +383,12 @@ section {
     align-items: center;
     gap: 1rem;
     padding: 1rem 2rem;
-    background: white;
+    background: #334155;
     border-radius: 8px;
     text-decoration: none;
-    color: #374151;
+    color: #e2e8f0;
     font-weight: 500;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
     min-width: 300px;
     justify-content: center;
